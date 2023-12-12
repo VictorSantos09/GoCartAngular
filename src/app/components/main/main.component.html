@@ -1,0 +1,15 @@
+<main class="container">
+  <div class="d-flex m-5">
+    <input
+      class="form-control"
+      placeholder="digite o produto que deseja buscar"
+      type="text"
+    />
+  </div>
+
+  <div class="row">
+    <div class="col" *ngFor="let product of products">
+        <app-card-product [product]="product"></app-card-product>
+    </div>
+  </div>
+</main>

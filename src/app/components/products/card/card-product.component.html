@@ -1,0 +1,13 @@
+<div class="card m-2" style="width: 18rem">
+  <img
+    [routerLink]="['/products/details', product?.id]"
+    [src]="product?.image?.url"
+    class="card-img-top img-fluid"
+    [alt]="product?.image?.alt"
+  />
+  <div class="card-body">
+    <h5 class="card-title">{{ product?.name }}</h5>
+    <p class="card-text">R$ {{ product?.price?.toFixed(2) }}</p>
+    <app-add-to-cart [productToAdd]="product"></app-add-to-cart>
+  </div>
+</div>

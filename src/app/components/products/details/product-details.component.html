@@ -1,0 +1,21 @@
+<div class="bg-light rounded-3 m-5">
+  <div class="p-5">
+    <div class="row">
+      <div class="col">
+        <img
+          [src]="product?.image?.url"
+          class="img-size rounded-3"
+          [alt]="product?.image?.alt"
+        />
+      </div>
+
+      <div class="col">
+        <h3>{{ product?.name }}</h3>
+        <p>{{ product?.description }}</p>
+        <h5>R$ {{ product?.price?.toFixed(2) }}</h5>
+
+        <app-add-to-cart [productToAdd]="product"></app-add-to-cart>
+      </div>
+    </div>
+  </div>
+</div>
