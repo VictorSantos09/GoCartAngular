@@ -16,14 +16,12 @@
     <tbody class="table-group-divider">
       <tr *ngFor="let order of orders">
         <th>
-          <div class="d-flex">
-            <img
-              [src]="order.product.image.url"
-              [alt]="order.product.image.alt"
-              class="img-fluid w-50 px-3 rounded-3"
-            />
-            <h5>{{ order.product.name }}</h5>
-          </div>
+          <h3 class="mx-2">{{ order.product.name }}</h3>
+          <img
+            [src]="order.product.image.url"
+            [alt]="order.product.image.alt"
+            class="img-fluid w-75 rounded-3"
+          />
         </th>
         <td>{{ order.product.description }}</td>
         <td>R$ {{ order.product.price }}</td>

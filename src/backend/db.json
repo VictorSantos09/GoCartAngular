@@ -2,147 +2,34 @@
   "products": [
     {
       "id": 1,
-      "name": "produto 1",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin interdum venenatis erat ut pharetra. Nulla interdum suscipit libero. Morbi volutpat tempor velit, sed porttitor est malesuada ac. Pellentesque efficitur nunc ut egestas commodo. Praesent vehicula, dolor id ullamcorper efficitur, nunc leo venenatis nulla, eu vulputate augue lacus vitae tortor. Vestibulum dui massa, gravida et lorem a, euismod convallis massa. Aliquam a gravida tellus. Sed ut tortor ante. Nullam finibus lacinia pretium. Sed justo risus, rhoncus at suscipit non, scelerisque eu enim. Curabitur non interdum mauris. Vestibulum fermentum varius augue ut pretium.",
-      "price": 15.5,
+      "name": "Notebook Gamer Lenovo Gaming 3i Intel Core i5-11300H, 8GB RAM, GeForce GTX 1650, SSD 512GB, 15.6 Full HD, Windows 11, Preto - 82MG0009BR",
+      "description": "Novo design com 11ª Geração de Processadores Intel Core i5-11300H e placa de vídeo NVIDIA GeForce GTX 1650 4GB. Ideal para gamers e usuários que também precisam de alta performance. Com tela de 15.6'' Full HD WVA Antirreflexo para melhor definição de imagem e cores. O armanezamento SSD PCIe NVMe é 10x mais rápido* que um HDD 2.5” SATA, você terá mais segurança ao armazenar seus dados. O teclado retroiluminado em LED branco, deixa o computador mais atraente e também favorece a performance para jogos em lugares com pouca iluminação.      ",
+      "price": 3469.99,
       "image": {
-        "url": "https://source.unsplash.com/random",
-        "alt": "random image"
+        "url": "https://images.kabum.com.br/produtos/fotos/373931/notebook-gamer-lenovo-gaming-3-intel-core-i5-11300h-geforce-gtx1650-8gb-ram-ssd-512gb-15-6-full-hd-windows-11-preto-82mg0009br-_1662137575_gg.jpg",
+        "alt": "Notebook Gamer Lenovo Gaming 3i"
       }
     },
     {
       "id": 2,
-      "name": "produto 2",
-      "description": "description 2",
-      "price": 16.5,
+      "name": "Headset Sem Fio Gamer HyperX Cloud Stinger Core Som Surround 7.1, Drivers 40mm - 4P4F0AA",
+      "description": "O HyperX Cloud Stinger Core é um headset gamer leve e durável a um preço acessível. Sua qualidade de som imersiva é proporcionada pelos drivers de 40 mm com médios e agudos claros e baixos impactantes. Melhore sua experiência em chat com seus amigos graças ao microfone com cancelamento de ruído que isola o som ambiente e se concentra na sua voz. Opcionalmente você pode adicionar som surround virtual 7.1 acionado pelo software NGENUITY na versão com e sem fio. O som surround acrescenta um outro nível de imersão que também ajuda a detectar sons dos inimigos no jogo com um áudio de localização mais apurado.",
+      "price": 339.99,
       "image": {
-        "url": "https://source.unsplash.com/random",
-        "alt": "random image"
+        "url": "https://images.kabum.com.br/produtos/fotos/114027/headset-sem-fio-gamer-hyperx-cloud-stinger-core-7-1-hhss1c-ba-bk-g_1597936019_gg.jpg",
+        "alt": "Headset Sem Fio Gamer HyperX Cloud Stinger Core"
       }
     },
     {
       "id": 3,
-      "name": "produto 3",
-      "description": "description 3",
-      "price": 17.5,
+      "name": "Cadeira Gamer KBM! GAMING Tempest CG600, Branco, Com Almofadas, Descanso Para Pernas Retrátil, Reclinável - KGCG600BR",
+      "description": "Conheça a cadeira KBM! GAMING Tempest CG600! Tenha horas incríveis desfrutando seu gameplay de maneira confortável e aconchegante! Feito com espuma de altíssima densidade e PU, a cadeira KBM! GAMING Tempest CG600 possui descanso para os pés, ideal para aquela pausa entre um jogo e outro! Além do design moderno e robusto, a cadeira proporciona ótima performance nas partidas devido a sensação de conforto que é convertida em foco e concentração, tudo que um gamer de verdade precisa para ser o melhor!",
+      "price": 739.99,
       "image": {
-        "url": "https://source.unsplash.com/random",
-        "alt": "random image"
+        "url": "https://images.kabum.com.br/produtos/fotos/471927/cadeira-gamer-kbm-gaming-cg600-branco-com-almofadas-descanso-para-pernas-retratil-reclinavel-kgcg600br_1700660778_gg.jpg",
+        "alt": "Cadeira Gamer KBM! GAMING Tempest CG600"
       }
     }
   ],
-  "orders": [
-    {
-      "id": 1,
-      "amount": 1,
-      "product": {
-        "id_product": 3,
-        "name": "produto 3",
-        "description": "description 3",
-        "price": 17.5,
-        "image": {
-          "url": "https://source.unsplash.com/random",
-          "alt": "random image"
-        }
-      }
-    },
-    {
-      "id": 2,
-      "amount": 1,
-      "product": {
-        "id_product": 1,
-        "name": "produto 1",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin interdum venenatis erat ut pharetra. Nulla interdum suscipit libero. Morbi volutpat tempor velit, sed porttitor est malesuada ac. Pellentesque efficitur nunc ut egestas commodo. Praesent vehicula, dolor id ullamcorper efficitur, nunc leo venenatis nulla, eu vulputate augue lacus vitae tortor. Vestibulum dui massa, gravida et lorem a, euismod convallis massa. Aliquam a gravida tellus. Sed ut tortor ante. Nullam finibus lacinia pretium. Sed justo risus, rhoncus at suscipit non, scelerisque eu enim. Curabitur non interdum mauris. Vestibulum fermentum varius augue ut pretium.",
-        "price": 15.5,
-        "image": {
-          "url": "https://source.unsplash.com/random",
-          "alt": "random image"
-        }
-      }
-    },
-    {
-      "id": 3,
-      "amount": 1,
-      "product": {
-        "id_product": 2,
-        "name": "produto 2",
-        "description": "description 2",
-        "price": 16.5,
-        "image": {
-          "url": "https://source.unsplash.com/random",
-          "alt": "random image"
-        }
-      }
-    },
-    {
-      "id": 4,
-      "amount": 5,
-      "product": {
-        "id_product": 1,
-        "name": "produto 1",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin interdum venenatis erat ut pharetra. Nulla interdum suscipit libero. Morbi volutpat tempor velit, sed porttitor est malesuada ac. Pellentesque efficitur nunc ut egestas commodo. Praesent vehicula, dolor id ullamcorper efficitur, nunc leo venenatis nulla, eu vulputate augue lacus vitae tortor. Vestibulum dui massa, gravida et lorem a, euismod convallis massa. Aliquam a gravida tellus. Sed ut tortor ante. Nullam finibus lacinia pretium. Sed justo risus, rhoncus at suscipit non, scelerisque eu enim. Curabitur non interdum mauris. Vestibulum fermentum varius augue ut pretium.",
-        "price": 15.5,
-        "image": {
-          "url": "https://source.unsplash.com/random",
-          "alt": "random image"
-        }
-      }
-    },
-    {
-      "id": 5,
-      "amount": 6,
-      "product": {
-        "id_product": 3,
-        "name": "produto 3",
-        "description": "description 3",
-        "price": 17.5,
-        "image": {
-          "url": "https://source.unsplash.com/random",
-          "alt": "random image"
-        }
-      }
-    },
-    {
-      "id": 6,
-      "amount": 2,
-      "product": {
-        "id_product": 1,
-        "name": "produto 1",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin interdum venenatis erat ut pharetra. Nulla interdum suscipit libero. Morbi volutpat tempor velit, sed porttitor est malesuada ac. Pellentesque efficitur nunc ut egestas commodo. Praesent vehicula, dolor id ullamcorper efficitur, nunc leo venenatis nulla, eu vulputate augue lacus vitae tortor. Vestibulum dui massa, gravida et lorem a, euismod convallis massa. Aliquam a gravida tellus. Sed ut tortor ante. Nullam finibus lacinia pretium. Sed justo risus, rhoncus at suscipit non, scelerisque eu enim. Curabitur non interdum mauris. Vestibulum fermentum varius augue ut pretium.",
-        "price": 15.5,
-        "image": {
-          "url": "https://source.unsplash.com/random",
-          "alt": "random image"
-        }
-      }
-    },
-    {
-      "id": 7,
-      "amount": 1,
-      "product": {
-        "id_product": 1,
-        "name": "produto 1",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin interdum venenatis erat ut pharetra. Nulla interdum suscipit libero. Morbi volutpat tempor velit, sed porttitor est malesuada ac. Pellentesque efficitur nunc ut egestas commodo. Praesent vehicula, dolor id ullamcorper efficitur, nunc leo venenatis nulla, eu vulputate augue lacus vitae tortor. Vestibulum dui massa, gravida et lorem a, euismod convallis massa. Aliquam a gravida tellus. Sed ut tortor ante. Nullam finibus lacinia pretium. Sed justo risus, rhoncus at suscipit non, scelerisque eu enim. Curabitur non interdum mauris. Vestibulum fermentum varius augue ut pretium.",
-        "price": 15.5,
-        "image": {
-          "url": "https://source.unsplash.com/random",
-          "alt": "random image"
-        }
-      }
-    },
-    {
-      "id": 8,
-      "amount": 1,
-      "product": {
-        "id_product": 1,
-        "name": "produto 1",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin interdum venenatis erat ut pharetra. Nulla interdum suscipit libero. Morbi volutpat tempor velit, sed porttitor est malesuada ac. Pellentesque efficitur nunc ut egestas commodo. Praesent vehicula, dolor id ullamcorper efficitur, nunc leo venenatis nulla, eu vulputate augue lacus vitae tortor. Vestibulum dui massa, gravida et lorem a, euismod convallis massa. Aliquam a gravida tellus. Sed ut tortor ante. Nullam finibus lacinia pretium. Sed justo risus, rhoncus at suscipit non, scelerisque eu enim. Curabitur non interdum mauris. Vestibulum fermentum varius augue ut pretium.",
-        "price": 15.5,
-        "image": {
-          "url": "https://source.unsplash.com/random",
-          "alt": "random image"
-        }
-      }
-    }
-  ]
+  "orders": []
 }

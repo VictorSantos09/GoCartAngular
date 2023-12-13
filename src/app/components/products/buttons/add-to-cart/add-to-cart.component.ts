@@ -1,11 +1,14 @@
 import { Component, Input } from '@angular/core';
 import { ProductService } from '../../services';
 import { ProductModel } from '../../../../models';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-add-to-cart',
   standalone: true,
-  imports: [],
+  imports: [
+    CommonModule
+  ],
   providers: [
     ProductService
   ],
@@ -15,6 +18,7 @@ import { ProductModel } from '../../../../models';
 export class AddToCartComponent {
   @Input()
   public productToAdd?: ProductModel;
+  public showIsAdded = false;
 
   constructor(private productService: ProductService) { }
 
@@ -24,5 +28,10 @@ export class AddToCartComponent {
     }
 
     this.productService.AddToCart(this.productToAdd);
+    this.showIsAdded = true;
+
+    setTimeout(() => {
+      this.showIsAdded = false;
+    }, 1500);
   }
 }

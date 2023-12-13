@@ -7,7 +7,8 @@
   />
   <div class="card-body">
     <h5 class="card-title">{{ product?.name }}</h5>
-    <p class="card-text">R$ {{ product?.price?.toFixed(2) }}</p>
+    <h3 class="card-text">R$ {{ product?.price?.toFixed(2) }}</h3>
+    <p class="lead fs-6">clique na imagem para mais informações</p>
     <app-add-to-cart [productToAdd]="product"></app-add-to-cart>
   </div>
 </div>

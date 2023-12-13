@@ -33,19 +33,14 @@ export class MainComponent implements OnInit {
     });
   }
 
+
+
   filterProducts(): void {
     if (this.productToFilter == "") {
       this.productsToShow = this.allProducts;
-    }
-
-    else {
-      var results = this.allProducts?.filter(p => {
-        p.name.includes(this.productToFilter);
-      });
-      console.log(this.productToFilter);
-      
-      console.log(results);
-      
+    } else {
+      var results = this.allProducts?.filter(p => p.name.includes(this.productToFilter));
+      this.productsToShow = results;
     }
   }
 }
