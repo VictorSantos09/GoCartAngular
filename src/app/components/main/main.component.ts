@@ -1,15 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { ProductModel } from '../../models';
 import { CommonModule } from '@angular/common';
 import { CardProductComponent } from '../products';
 import { MainpageService } from './sevices';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-main',
   standalone: true,
   imports: [
     CommonModule,
-    CardProductComponent
+    CardProductComponent,
+    FormsModule
   ],
   providers: [
     MainpageService
@@ -18,13 +20,32 @@ import { MainpageService } from './sevices';
   styleUrl: './main.component.css'
 })
 export class MainComponent implements OnInit {
-  public products?: ProductModel[];
+  public productsToShow?: ProductModel[];
+  public allProducts?: ProductModel[];
+  public productToFilter: string = "";
 
   constructor(private mainpageService: MainpageService) { }
 
   ngOnInit(): void {
     this.mainpageService.buscarProdutos().then((data) => {
-      this.products = data;
+      this.productsToShow = data;
+      this.allProducts = data;
     });
+  }
+
+  filterProducts(): void {
+    if (this.productToFilter == "") {
+      this.productsToShow = this.allProducts;
+    }
+
+    else {
+      var results = this.allProducts?.filter(p => {
+        p.name.includes(this.productToFilter);
+      });
+      console.log(this.productToFilter);
+      
+      console.log(results);
+      
+    }
   }
 }

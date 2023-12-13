@@ -63,5 +63,19 @@ export class CartComponent implements OnInit {
     });
 
     this.showCompleted = true;
+    this.startCountdown();
+  }
+
+  startCountdown(): void {
+    let intervalId = setInterval(() => {
+      this.showCompleted = false;
+      clearInterval(intervalId);
+      window.location.href = "/"
+    }, 5000)
+  }
+
+  remove(order: OrderModel): void{
+    this.productService.removeFromCart(order.id);
+    window.location.reload();
   }
 }
