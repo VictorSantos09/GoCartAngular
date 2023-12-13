@@ -8,8 +8,7 @@ Certas simples implementações e funcionalidades não foram totalmente feitas d
 
 
 ## Demonstração
-
-
+![GIF de Demonstração](public/img/Demonstração.gif)
 
 ## Funcionalidades
 
