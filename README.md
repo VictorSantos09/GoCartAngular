@@ -61,8 +61,20 @@ Inicie o front-end
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+Página Principal
+![Página Principal](public/img/MainPage.png)
 
+
+Detalhes do Produto
+![Detalhes do Produto](public/img/ProductDetails.png)
+
+
+Carrinho
+![Carrinho](public/img/Cart.png)
+
+
+Meus Pedidos
+![Meus Pedidos](public/img/MyOrders.png)
 
 ## Stack utilizada
 
