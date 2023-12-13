@@ -1,27 +1,72 @@
-# AngularRandom
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.5.
+# GoCartAngular
 
-## Development server
+Esse projeto foi criado seguindo o projeto [GoCart](https://github.com/VictorSantos09/GoCart), sendo dessa vez feito em Angular 17 para meios de prática com a framework.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Nota
+Certas simples implementações e funcionalidades não foram totalmente feitas da mesma forma ou não foram feitas, pois o objetivo desse projeto era focar na estrutura e na forma de se trabalhar com o Angular.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Demonstração
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Funcionalidades
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Filtrar Produtos
+- Adicionar ao Carrinho
+- Remover do Carrinho
+- Alterar Quantidade Desejada no Carrinho
+- Efetuar Compra
+- Visualizar Pedidos Realizados
+- Visualizar Detalhes do Produto
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Rodando localmente
 
-## Further help
+# Aviso
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Precisa conter o angular CLI instalado, para mais informações visite [Angular Setup Local](https://angular.io/guide/setup-local)
+
+Clone o projeto
+
+```bash
+  git clone https://github.com/VictorSantos09/GoCartAngular
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd GoCartAngular
+```
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie o servidor
+
+```bash
+  npm run server
+```
+
+Inicie o front-end
+
+```bash
+  npm start
+```
+
+
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
+## Stack utilizada
+
+**Front-end:** Angular 17, Boostrap, TypeScript, HTML, CSS
+
+**Back-end:** NodeJS, JsonServer 
+
